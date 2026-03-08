@@ -1,0 +1,72 @@
+/* Main Design */
+/* Scrimba Solo Project: Random Password Generator (Dark) */
+
+/* Heading */
+
+
+#background {
+    box-sizing: border-box;
+    width: 550px;
+    height: 550px;
+    background-color: #1F2937;
+    margin: 0 auto;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+}
+
+.heading {
+    font-family: 'Karla', sans-serif;
+    margin: 0px;
+}
+
+.green {
+    color: #4ADF86;
+}
+
+.white {
+    color: white;
+}
+
+#banner {
+    font-family: 'Inter', sans-serif;
+    color: rgb(166, 165, 165);
+    margin: 5px 0;
+}
+
+#btn-generate {
+    width: 150px;
+    height: 30px;
+    border-radius: 6px;
+    border: none;
+    background-color: #10B981;
+    font-family: 'Inter', sans-serif;
+    color: rgb(228, 227, 227);
+    font-size: 12px;
+    margin: 40px 0px 20px 0px;
+}
+
+hr {
+    width: 100%;
+    border: solid #2F3E53 0.3px;
+}
+
+#text-content{
+    width: 100%
+}
+
+#passwords {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0px;
+}
+
+.pw-btn{
+    background-color: #273549;
+    border: none;
+    width: 200px;
+    height: 25px;
+    border-radius: 6px;
+    color: #55F991;
+}
